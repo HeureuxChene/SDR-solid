@@ -1,0 +1,31 @@
+@use '~/style/_assets.scss' as assets;
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    height: fit-content;
+    padding: 0px assets.$standard-padding assets.$standard-padding assets.$standard-padding;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#formulaireContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#inputContainerDouble {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#formulaireSubmitArea{
+    display: flex;
+    justify-content: space-between;
+}

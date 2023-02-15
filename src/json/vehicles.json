@@ -1,0 +1,20 @@
+{
+    "0": {
+        "traduction":"mercedes-s-class",
+        "passengers": "3",
+        "luggages": "3",
+        "ratioPrix" : "3.4"
+    },
+    "1": {
+        "traduction":"mercedes-e-class",
+        "passengers": "3",
+        "luggages": "3",
+        "ratioPrix" : "2.7"
+    },
+    "2": {
+        "traduction":"mercedes-v-class",
+        "passengers": "7",
+        "luggages": "10",
+        "ratioPrix" : "2.9"
+    }
+}

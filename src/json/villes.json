@@ -1,0 +1,46 @@
+{
+    "turin": {
+        "titre": "TURIN",
+        "destination": "Turin, Italie"
+    },
+    "saint-tropez": {
+        "titre": "SAINT-TROPEZ",
+        "destination": "Saint-Tropez, France"
+    },
+    "milan": {
+        "titre": "MILAN",
+        "destination": "Milano, Milan, Italie"
+    },
+    "saint-jean-cap-ferrat": {
+        "titre": "ST JEAN CAP FERRAT",
+        "destination": "Saint-Jean-Cap-Ferrat, France"
+    },
+    "san-remo": {
+        "titre": "SAN REMO",
+        "destination": "San Remo, Imperia, Italie"
+    },
+    "nice": {
+        "titre": "NICE",
+        "destination": "Nice, France"
+    },
+    "monaco": {
+        "titre": "MONACO",
+        "destination": "Monaco-Ville, Monaco"
+    },
+    "antibes": {
+        "titre": "ANTIBES",
+        "destination": "Antibes, France"
+    },
+    "eze": {
+        "titre": "ÈZE",
+        "destination": "Èze, France"
+    },
+    "geneve": {
+        "titre": "GENÈVE",
+        "destination": "Genève, Suisse"
+    },
+    "cannes": {
+        "titre": "CANNES",
+        "destination": "Cannes, France"
+    }
+}

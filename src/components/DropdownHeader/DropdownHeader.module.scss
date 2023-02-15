@@ -1,0 +1,113 @@
+@use '~/style/_assets.scss' as assets;
+
+.dropdownHeader{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: calc(50% + assets.$police-link-header/2 + 1px);
+        height: assets.$hauteur-header-underlink;
+        width: 0;
+        background-color: assets.$color-gold;
+        translate: -1px 0px;
+        transition: width .2s ease-out;
+    }
+
+    &:hover::after {
+        width: 30%;
+    }
+}
+
+.dropdownHeaderActive{
+    &::after {
+        width: calc(100% - 2px);
+    }
+    &:hover::after {
+        width: calc(100% - 2px);
+    }
+}
+
+.titre {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.liste {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: calc(50% + assets.$hauteur-header/2);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.listeVisible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    translate: -10px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: assets.$header-background;
+
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 0%;
+        transition: width 0.3s, box-shadow 0.3s ease-out;
+    }
+
+    &:hover:after {
+        width: 100%;
+        box-shadow: inset -1px 0px 0px 0px assets.$color-gold, inset 1px 0px 0px 0px assets.$color-gold;
+        background-color: #ffffff0d;
+    }
+
+    &:nth-child(1) {
+        transition: translate .2s, opacity .2s, visibility .2s ease-out;
+    }
+
+    &:nth-child(2) {
+        transition: .2s translate .1s, .2s opacity .1s, .2s visibility .1s ease-out;
+    }
+
+    &:nth-child(3) {
+        transition: .2s translate .15s, .2s opacity .15s, .2s visibility .1s ease-out;
+    }
+
+    &:nth-child(4) {
+        transition: .2s translate .2s, .2s opacity .2s, .2s visibility .1s ease-out;
+    }
+}
+
+.itemActive{
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        box-shadow: inset -1px 0px 0px 0px assets.$color-gold, inset 1px 0px 0px 0px assets.$color-gold;
+        background-color: #ffffff0d;
+    }
+}
+
+.itemTransition {
+    translate: 0px;
+    opacity: 1;
+    visibility: visible;
+}

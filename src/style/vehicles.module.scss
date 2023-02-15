@@ -1,0 +1,235 @@
+.visible {
+    transition: visibility 0.2s, opacity 0.2s, transform 0.2s linear;
+}
+
+#sectionVehicules {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: calc(100vw / (5/3));
+    min-height: 800px;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#sectionVehiculesBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: calc(800px * (5/3));
+    height: 100%;
+    z-index: -1;
+    translate: 0 -10%;
+}
+
+.carrouselVehiculesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-size: cover;
+    background-color: #0003;
+    transition: background-color .1s ease-out;
+}
+
+.carrouselVehiculesButton:hover {
+    background-color: #0008;
+}
+
+.carrouselVehiculesButtonLeft {
+    left: 20%;
+}
+
+.carrouselVehiculesButtonRight {
+    right: 20%;
+}
+
+.titleVoiture {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    padding: 50px 0px;
+}
+
+.imgVoiture {
+    align-self: center;
+    position: absolute;
+    width: auto;
+    height: 70%;
+    translate: 0px -5%;
+}
+
+.descriptif {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 550px;
+}
+
+.title {
+    font-family: UniSans;
+    font-size: 26px;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0000008c;
+}
+
+.corps {
+    text-align: center;
+}
+
+#buttonReserver{
+    position: absolute;
+    bottom: 0%;
+    height: fit-content;
+    margin: 50px 0px;
+}
+
+
+.vehicules {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+    padding: 10px;
+    gap: 10px;
+}
+
+.vehiculeContainer{
+    overflow: hidden;
+}
+
+.vehicule{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale .2s ease-out;
+
+    &:hover{
+        scale: 1.02;
+    }
+}
+
+
+// #carrouselVehicules {
+//     position: relative;
+//     display: grid;
+//     height: 100%;
+//     z-index: 5;
+// }
+
+// #carrouselVehiculesBackground {
+//     position: absolute;
+//     width: 100%;
+//     height: auto;
+//     z-index: -1;
+// }
+
+// .carrouselVehiculesButton {
+//     position: absolute;
+//     cursor: pointer;
+//     z-index: 1;
+//     padding: 0px;
+//     top: calc(1rem + 4vw + 0.5rem + 2vw);
+//     transform: translateY(-50%);
+//     height: calc(1rem + 4vw);
+//     width: calc(1rem + 4vw);
+//     border-radius: 200px;
+//     background-size: cover;
+//     background-color: rgba(0, 0, 0, 0.2);
+//     border: none;
+//     transition: background-color 0.1s linear;
+// }
+
+// .carrouselVehiculesButton:hover {
+//     background-color: rgba(0, 0, 0, 0.5);
+// }
+
+// .carrouselVehiculesButtonLeft {
+//     left: calc(20vw - 50px);
+//     background-image: url("/media/misc/prec.png");
+// }
+
+// .carrouselVehiculesButtonRight {
+//     right: calc(20vw - 50px);
+//     background-image: url("/media/misc/suiv.png");
+// }
+
+// .titleVoiture {
+//     position: absolute;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     height: fit-content;
+//     padding: 50px 0px;
+//     gap: calc(0.1rem + 0.3vw);
+//     box-sizing: border-box;
+//     width: 100%;
+// }
+
+// .descriptif {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     grid-area: 2 / 1 / 3 / 2;
+//     height: 100%;
+//     gap: 10px;
+// }
+
+// .title {
+//     font-family: UniSans;
+//     font-size: calc(0.9rem + 1.5vw);
+//     margin-bottom: calc(0.5rem + 0.5vw);
+// }
+
+// .subtitle {
+//     padding: 0 calc(30px) 0 calc(30px);
+//     text-align: center;
+//     font-size: calc(0.9rem + 0.5vw);
+// }
+
+// .corps {
+//     text-align: center;
+//     padding: 0 25vw 0 25vw;
+// }
+
+// .button {
+//     display: flex;
+//     justify-content: center;
+//     padding: calc(1rem + 1.5vw) 0 calc(2rem + 2.5vw) 0;
+// }
+
+// .visible {
+//     transition: visibility 0.2s, opacity 0.2s, transform 0.2s linear;
+// }
+
+// .slideImgVehicules {
+//     position: relative;
+//     height: calc(50vh - 90px + 40px);
+//     min-height: 500px;
+//     width: 100%;
+//     background-color: white;
+// }
+
+// .vehiculesTroisImg {
+//     display: grid;
+//     height: calc(50vh - 90px);
+//     min-height: 500px;
+//     box-sizing: border-box;
+//     padding: 10px;
+//     gap: 10px;
+//     grid-template-columns: 1fr 1fr 1fr;
+// }

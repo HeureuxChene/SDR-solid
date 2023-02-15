@@ -1,0 +1,253 @@
+{
+    "navlink-home":"HOME",
+
+    "navlink-reservation":"BOOKING",
+
+    "navlink-vehicles":" VEHICLES ",
+
+    "navlink-services":"SERVICES",
+
+
+
+
+    "home-header-title": "SEVEN DRIVER RIVIERA",
+
+    "home-header-subtitle": " YOUR PRIVATE DRIVER",
+
+    "home-first-section-title": "SEVEN DRIVER RIVIERA",
+
+    "home-first-section-subtitle-un": "A HIGH-END SERVICE",
+
+    "home-first-section-subtitle-deux": "PRIVATE OR BUSINESS TRIPS",
+
+    "home-first-section-first-text": "Seven Driver Riviera is the private chauffeur company that provides you with a customized transportation service.",
+
+    "home-first-section-second-text": "Travel in complete serenity wherever you wish, whether locally on the French Riviera or for all types of long distance trips in Europe. The reliability and experience of our drivers, their experience on the roads and their English speaking abilities guarantee you a high quality service. Courtesy, punctuality and respect of your privacy are our assets to certify you a maximum satisfaction.",
+
+    "home-first-section-third-text": "We have a diversified fleet of vehicles that allows you to customize your trips according to your needs and desires. Our objective is to ensure you a serene and pleasant trip thanks to our experienced drivers aboard our luxurious and modern vehicles. Take advantage of a trip with complete peace of mind, we adapt to your needs and offer you the most comfortable transportation",
+
+    "home-first-section-button": "Ask for a quotation",
+
+    "home-second-section-title": "OUR SERVICES",
+
+    "home-second-section-first-text":"Are you looking for a private chauffeur for a long period of time, to escort you during an event, to make a quick trip to your home or the airport for example? Transfers, excursions, events, all our services for a customized service",
+
+    "home-second-section-button":"Learn about our services",
+
+    "home-third-section-title": "HOW IT WORKS",
+
+    "home-third-section-subtitle": "EASY BOOKING FOR A SUPERIOR SERVICE",
+    "home-third-section-first-text": "Book your ride or send us a quote directly from the website, or by phone at +33 6 50 32 06 22",
+
+    "home-third-section-second-text": " Receive and validate your confirmation by email and/or message",
+
+    "home-third-section-third-text": "Your driver will wait for you at the agreed address and time with the vehicle of your choice",
+
+    "home-third-section-fourth-text": "Enjoy your ride and a prestigious service",
+
+    "home-third-section-fifth-text": "You can pay beforehand from the website, or directly to the driver after your trip",
+
+    "home-third-section-button":"Book now",
+
+    "home-fourth-section-title": "OUR VEHICLES",
+
+    "home-fourth-section-first-text": "We provide a range of prestigious vehicles to satisfy a demanding and refined request. Mercedes E-Class, S-Class, V-Class and other vehicles are at your service to guarantee you a pleasant transfer with our private driver, in a vehicle with absolute comfort",
+
+    "home-fourth-section-button":"Learn about our vehicles",
+
+
+    "loading": "Loading...",
+
+    "booking-header-title":"BOOKING",
+    "navlink-booking-classic":"CLASSIC",
+    "navlink-booking-tailored":"TAILORED",
+
+    "booking-tailored-surname":"SURNAME",
+    "booking-tailored-surname-error":"Invalid surname",
+    "booking-tailored-name":"NAME",
+    "booking-tailored-name-error":"Invalid name",
+    "booking-tailored-company":"COMPANY",
+    "booking-tailored-phone":"PHONE",
+    "booking-tailored-phone-error":"Invalid phone",
+    "booking-tailored-mail":"MAIL ADRESS",
+    "booking-tailored-mail-error":"Invalid mail",
+    "booking-tailored-message":"MESSAGE",
+    "booking-tailored-button-send":"Send",
+
+    "booking-classic-date":"DATE",
+    "booking-classic-heure":"TIME",
+    "booking-classic-vehicle":"VEHICLE",
+    "booking-classic-vehicle-placeholder":"Model",
+    "booking-classic-vehicle-class-placeholder":"class",
+    "booking-mandatory-fields" : "Fields marked with * are mandatory",
+
+    "mercedes-s-class":"Mercedes S-Class",
+    "mercedes-e-class":"Mercedes E-Class",
+    "mercedes-v-class":"Mercedes V-Class",
+
+    "booking-classic-luggages":"LUGGAGES",
+    "booking-classic-luggages-minus":"Luggages",
+    "booking-classic-passengers":"PASSENGERS",
+    "booking-classic-origin":"DEPARTURE ADRESS",
+    "booking-classic-origin-placeholder":"Origin",
+    "booking-classic-destination":"ARRIVAL ADRESS",
+    "booking-classic-destination-placeholder":"Destination",
+    "booking-classic-payment-method":"PAYMENT METHOD",
+    "booking-classic-payment-on-spot":"On spot",
+    "booking-classic-payment-online":"Online",
+    "booking-classic-comment":"COMMENT",
+    "booking-classic-payment":"Payer maintenant",
+
+    "fixed-nav-reservation-button": "BOOK A TRANSFER",
+    "fixed-nav-reservation-button-nocaps": "Book a transfer",
+    "fixed-nav-distance": "Distance",
+    "fixed-nav-duration": "Duration",
+    "fixed-nav-reserver": "BOOK",
+    "fixed-nav-price": "Price",
+    "fixed-nav-price-maj": "PRICE",
+
+    "booking-classic-button-previous":"Previous",
+    "booking-classic-button-next":"Next",
+    "booking-classic-button-send":"Send",
+
+    "payment-title":"Order summary",
+    "payment-button-pay":"Pay now",
+
+    "payment-success-title":"PAYMENT PROCESSED",
+    "payment-button-subtitle":"We will get back to you shortly to honour your transfer",
+    "payment-success-button":"Back to homepage",
+
+    
+
+
+
+
+
+    
+
+    "vehicles-header-title":"OUR VEHICLES",
+
+    "vehicles-header-subtitle":"COMFORT AT THE SERVICE OF PRESTIGE",
+
+    "vehicule-mercedes":"MERCEDES",
+
+    "vehicles-classeS": "S-CLASS",
+
+    "vehicles-classeS-title-un": "3 PASSENGERS",
+
+    "vehicles-classeS-title-deux": "3 LUGGAGES",
+
+    "vehicles-classeS-subtitle": "Unparalleled luxury and comfort",
+
+    "vehicles-classeS-text": " The Mercedes S Class is the ideal vehicle for your long journeys. The comfort technologies ensure you a calm and serene journey. Luxury, modernity and driving flexibility to guarantee satisfaction and serenity.",
+
+
+    "vehicles-classeE": "E-CLASS",
+
+    "vehicles-classeE-title-un": "3 PASSENGERS",
+
+    "vehicles-classeE-title-deux": "3 LUGGAGES",
+
+    "vehicles-classeE-subtitle": " Flexibility to take you on all roads",
+    "vehicles-classeE-text": " The Mercedes E-Class is the vehicle par excellence to satisfy any kind of demand. Short or long journeys, at your disposal or on tourist excursions, this fully equipped model guarantees you optimal travel conditions for all your journeys.",
+
+
+    "vehicles-classeV": "V-CLASS",
+
+    "vehicles-classeV-title-un": "7 PASSENGERS",
+
+    "vehicles-classeV-title-deux": "10 LUGGAGES",
+
+    "vehicles-classeV-subtitle": "Spacious beyond comfortable",
+
+    "vehicles-classeV-text": " The Mercedes V-Class is to be preferred if your demands require a large capacity in terms of passengers or luggage. Its convenience is not at the expense of its comfort, its ultra-modern and spacious interior guarantees your well-being and safety.",
+
+    "vehicles-autre-modele": "OTHER MODELS",
+
+    "vehicles-autre-modele-title": "MAKE YOUR REQUEST",
+
+    "vehicles-autre-modele-subtitle": " Are you interested in a different type of vehicle?",
+
+    "vehicles-autre-modele-text": "A specific model in mind ? Do not hesitate and make your request in advance in the quotation.",
+
+    "vehicles-button-reserver": "Book with this vehicle",
+
+    "vehicles-button-devis": "Ask for a quotation",
+
+
+
+
+    "services-header-title": "OUR SERVICES",
+    "services-header-subtitle": "24/24H and 7/7D",
+
+    "navlink-services-transfert":"TRANSFER",
+    "navlink-services-disposable-driver":"DISPOSABLE DRIVER",
+    "navlink-services-events":"EVENTS",
+    "navlink-services-excursions":"EXCURSIONS",
+
+    "services-transfert-header-title": "TRANSFER",
+    "services-transfert-header-subtitle": "THE SOLUTION FOR YOUR LONG OR SHORT TRIPS",
+    "services-transfert-first-section-first-text": "Need a transfer from Nice airport, a transfer between Nice and Cannes, or between Monaco and St-Tropez? Seven Driver Riviera will take care of all your travel needs on the French Riviera. Enjoy effortlessly a quiet journey and a prestigious transport service. All our drivers are committed to providing you with a safe and reliable ride, and we also make it a priority to be uncompromising about punctuality, which remains our top rule. Whether your reservation is planned in advance or at the last minute, our experienced drivers will be at your entire disposal during your stay.",
+    "services-transfert-second-section-first-text":"A train or a plane to take to Nice, Italy or Switzerland? Seven Driver Riviera will accompany you on all your trips between the French Riviera and abroad.",
+    "services-transfert-second-section-second-text": "For an arrival from Nice airport, we guarantee you a quality welcome, a driver will wait for you with a sign with your name. We take care of your luggage from your point of departure to your arrival.",
+    "services-transfert-second-section-third-text": "We are of course aware of the constraints linked to flight schedules, their respect is of the utmost importance to us.",
+    "services-transfert-first-icon-title": "24/24H - 7/7D",
+    "services-transfert-first-icon-text": " Book with no time constraints",
+    "services-transfert-second-icon-title": "From Nice - To Nice",
+    "services-transfert-second-icon-text": "VTC transfer from / to the airport",
+    "services-transfert-third-icon-title": "Fixed rates",
+    "services-transfert-third-icon-text": "Receive a confirmation beforehand of the price to pay",
+    "services-transfert-fourth-icon-title": "Long / short trips",
+    "services-transfert-fourth-icon-text": "Support for all types of destinations",
+    "services-transfert-button": "Book your transfer",
+
+    "services-provision-header-title": "AVAILABILITY",
+    "services-provision-header-subtitle": "YOUR PRIVATE CHAUFFEUR AT YOUR SERVICE",
+    "services-provision-first-section-first-text": "We provide you with a private chauffeur who will escort you for a period of time that you determine.",
+    "services-provision-first-section-second-text": "Would you like to have a driver for the duration of your stay on the French Riviera to bring you there in the best conditions, or simply to have a driver at your service for one evening to take you, wait for you and bring you back to a restaurant without worrying about the means of transport? Seven Driver offers you the possibility to be accompanied by a trustworthy person who will drop you off where you want and will wait for your return.",
+    "services-provision-first-section-third-text": "Reliable, punctual, discreet, our drivers are at your disposal to guarantee maximum satisfaction.",
+    "services-provision-first-icon-title": "Your selected duration",
+    "services-provision-first-icon-text": "A chauffeur at your disposal for as long as you need",
+    "services-provision-second-icon-title": "Customized service",
+    "services-provision-second-icon-text": "Reliable and attentive driver for all your desires",
+    "services-provision-third-icon-title": "Fixed rates",
+    "services-provision-third-icon-text": "Fixed hourly rates defined in advance",
+    "services-provision-fourth-icon-title": "Your choice of destinations",
+    "services-provision-fourth-icon-text": "Flexible chauffeur for any change of destination",
+    "services-provision-button": "Ask for a quotation",
+
+    "services-event-header-title": "EVENT",
+    "services-event-header-subtitle": "THE SOLUTION FOR YOUR PROFESSIONAL OR PRIVATE EVENTS",
+    "services-event-first-section-first-text": "Seven Driver Riviera offers you a top-of-the-line service that will meet all your needs and relieve the logistical burden of transportation for an event.",
+    "services-event-first-section-second-text": "Professionals, are you looking for one or more private chauffeurs for your conferences, seminars, charity events or do you want to have a long-term chauffeur? Seven Driver Riviera offers you the ideal solution combining punctuality, prestige and reliability.",
+    "services-event-first-section-third-text": "Our chauffeurs can also assist you during your private events. Weddings, parties or birthdays, our private drivers will put their entire logistical expertise at your service and will be happy to welcome you and your guests aboard their high-end vehicle.",
+    "services-event-first-icon-title": "Set the duration of your event",
+    "services-event-first-icon-text": "Our drivers will be present for the duration of the event",
+    "services-event-second-icon-title": "Vehicles of your choice",
+    "services-event-second-icon-text": "Book one or more vehicles",
+    "services-event-third-icon-title": "Fixed rates",
+    "services-event-third-icon-text": "Fixed hourly rates defined in advance",
+    "services-event-fourth-icon-title": "Chauffeurs at your disposal",
+    "services-event-fourth-icon-text": "Book one or more drivers",
+    "services-event-button": "Ask for a quotation",
+
+    "services-excursion-header-title": "EXCURSIONS",
+    "services-excursion-header-subtitle": "DISCOVER THE REGION OF YOUR CHOICE",
+    "services-excursion-first-section-first-text": "Antibes, Cannes, Monaco, Saint-Raphaël, Èze, Milan, Valensole, Ventimiglia... From the most beautiful seaside towns in the south of France to the charm of Italian cities, travel on board our luxury vehicles in the greatest comfort.",
+    "services-excursion-first-section-second-text": "Seven Driver Riviera can help you discover cities and regions with complete peace of mind.",
+    "services-excursion-first-section-third-text": "Trust the knowledge of our drivers and enjoy the comfort of our vehicles, you will only have to discover the local specialties and enjoy your stay. The French Riviera and its surroundings will no longer hold any secrets for you.",
+    "services-excursion-first-icon-title": "Set the length of your trip",
+    "services-excursion-first-icon-text": "A driver guides you along the reserved time",
+    "services-excursion-second-icon-title": "Customized support",
+    "services-excursion-second-icon-text": "Let us take you to the places of your choice",
+    "services-excursion-third-icon-title": "Fixed rates",
+    "services-excursion-third-icon-text": "Fixed hourly rates defined in advance",
+    "services-excursion-fourth-icon-title": " Discover a city ",
+    "services-excursion-fourth-icon-text": " Choose a destination ahead of time and go discover it",
+    "services-excursion-button": "Ask for a quotation",
+
+
+
+    "carrousel-partenaires-title": "THEY TRUSTED US"
+}
+

@@ -1,0 +1,111 @@
+@use '~/style/_assets.scss' as assets;
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: assets.$standard-padding;
+    background-color: #fff;
+}
+
+.headerTitle{
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.headerP {
+    text-align: center;
+    width: 700px;
+}
+
+.texteIllustration {
+    display: flex;
+    justify-content: center;
+    padding: assets.$standard-padding;
+    gap: 40px;
+    background-color: #e6e6e6;
+    height: 50vh;
+}
+
+.texteIllustrationTexte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 100%;
+}
+
+.texteIllustrationContainer {
+    width: 500px;
+    overflow: hidden;
+}
+
+.texteIllustrationContainerImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale .2s ease-out;
+
+    &:hover {
+        scale: 1.02;
+    }
+}
+
+#icones {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: calc(3rem + 3.5vw) calc(3rem + 3.5vw) 0 calc(3rem + 3.5vw);
+    column-gap: calc(0.5rem + 4vw);
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+#separation {
+    position: absolute;
+    top: calc(4.5rem + 5.25vw);
+    left: 15%;
+    width: 70%;
+    height: 1px;
+    z-index: 0;
+    background-color: #d2a937;
+}
+
+.iconesContainer {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transition: transform 0.2s ease-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.iconesContainerImg {
+    height: calc(3rem + 3.5vw);
+    justify-self: center;
+}
+
+.iconesContainerH3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: HelveticaCondensedBold;
+    margin: 0;
+    margin-top: clamp(1rem, 1vw, 5rem);
+    font-size: clamp(1rem, 1.5vw, 1.6rem);
+}
+
+.iconesContainerP {
+    text-align: center;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: calc(3rem + 3.5vw) 0 calc(2rem + 2.5vw) 0;
+}

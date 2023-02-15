@@ -1,0 +1,52 @@
+@use '~/style/_assets.scss' as assets;
+
+#space{
+    width: 100%;
+    height: assets.$hauteur-header;
+}
+
+#nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: calc(assets.$standard-padding * 2) 0px;
+}
+
+
+.link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: HelveticaCondensedBold;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: calc(50% + assets.$police-link-header/2 + 5px);
+        height: assets.$hauteur-nav-second-underlink;
+        width: 0;
+        background-color: assets.$color-gold;
+        translate: -1px 0px;
+        transition: width .2s ease-out;
+    }
+
+    &:hover::after {
+        width: 30%;
+    }
+}
+
+.linkActive {
+    &::after {
+        width: calc(100% - 2px);
+    }
+
+    &:hover::after {
+        width: calc(100% - 2px);
+    }
+}

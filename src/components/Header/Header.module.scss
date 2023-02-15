@@ -1,0 +1,119 @@
+@use '~/style/_assets.scss' as assets;
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    height: assets.$hauteur-header;
+    width: 100vw;
+    color: assets.$color-gold;
+    background-color: #0000;
+    line-height: 100%;
+    font-size: assets.$police-link-header;
+    font-family: HelveticaCondensedLight;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    transition: background-color .3s, color .3s, translate .3s ease-out;
+}
+
+.headerHover {
+    color: #fff;
+    background-color: assets.$header-background;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.headerHidden{
+    translate: 0px calc(-1 * assets.$hauteur-header);
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20%;
+}
+
+.link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    &::after {
+        content: '';
+        position: absolute;
+        top: calc(50% + assets.$police-link-header/2 + 1px);
+        height: assets.$hauteur-header-underlink;
+        width: 0;
+        background-color: assets.$color-gold;
+        translate: -1px 0px;
+        transition: width .2s ease-out;
+    }
+    &:hover::after{
+        width: 30%;
+    }
+}
+
+.linkActive{
+    &::after {
+        width: calc(100% - 2px);
+    }
+    &:hover::after {
+        width: calc(100% - 2px);
+    }
+}
+
+#linkLogo {
+    display: flex;
+    align-items: center;
+    width: calc(assets.$hauteur-logo * assets.$ratio-largeur-hauteur);
+    height: assets.$hauteur-header;
+}
+
+.logo {
+    position: absolute;
+    width: calc(assets.$hauteur-logo * assets.$ratio-largeur-hauteur);
+    height: assets.$hauteur-logo;
+    transition: opacity .2s ease-out;
+}
+
+#navSec {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // gap: 5px;
+    gap: 30px;
+}
+
+#linkContact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#whatsappIcon {
+    width: 25px;
+    height: 25px;
+}
+
+#whatsappNumber {
+    position: relative;
+    display: block;
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: calc(100% + 1px);
+        height: 1px;
+        width: 0;
+        background-color: assets.$color-gold;
+        translate: -1px 0px;
+        transition: width .2s ease-out;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}

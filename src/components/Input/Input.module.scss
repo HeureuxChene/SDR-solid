@@ -1,0 +1,72 @@
+@use '~/style/_assets.scss' as assets;
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: block;
+    width: fit-content;
+    color: #0008;
+    line-height: 100%;
+    font-size: assets.$fomulaire-input-label-font-size;
+    font-family: assets.$fomulaire-police;
+    user-select: none;
+    cursor: pointer;
+    z-index: 0;
+    margin-bottom: assets.$fomulaire-label-margin;
+    transition: translate .2s, color .2s ease-out;
+}
+
+.labelText {
+    translate: calc(assets.$fomulaire-input-padding-width + 1px) calc(100% + assets.$fomulaire-input-padding-height + assets.$fomulaire-label-margin + 1px);
+    cursor: text;
+}
+
+.labelFocus {
+    color: #000;
+    translate: 0px 0px;
+}
+
+.input {
+    width: 100%;
+    height: calc(assets.$fomulaire-input-padding-height * 2 + assets.$fomulaire-input-label-font-size + 2px);
+    padding: assets.$fomulaire-input-padding-height assets.$fomulaire-input-padding-width;
+    font-size: assets.$fomulaire-input-label-font-size;
+    font-family: assets.$fomulaire-police;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #0006;
+    transition: border-radius .2s, border .2s, background-color .2s ease-out;
+    background-color: transparent;
+}
+
+// .input:disabled {
+//     background-color: #0001;
+//     border: 1px solid assets.$color-gold;
+// }
+
+.inputFocus {
+    border: 1px solid assets.$color-gold;
+}
+
+.error {
+    color: #f00;
+    font-family: assets.$fomulaire-police;
+    font-size: calc(assets.$fomulaire-input-label-font-size - 2px);
+    line-height: 100%;
+    height: 0px;
+    opacity: 0;
+    transition: height .2s, opacity .2s ease-out
+}
+
+.errorVisible {
+    height: calc(assets.$fomulaire-input-label-font-size - 2px);
+    opacity: 1;
+}
+
+.inputError {
+    border: 1px solid #f00;
+}

@@ -1,0 +1,161 @@
+@use '~/style/_assets.scss' as assets;
+
+@font-face {
+  font-family: Bodoni;
+  src: url('/police/Bodoni.otf');
+}
+
+@font-face {
+  font-family: HelveticaCondensedBold;
+  src: url('/police/HelveticaCondensedBold.otf');
+}
+
+@font-face {
+  font-family: HelveticaCondensedLight;
+  src: url('/police/HelveticaCondensedLight.otf');
+}
+
+@font-face {
+  font-family: HelveticaLight;
+  src: url('/police/HelveticaLight.otf');
+}
+
+@font-face {
+  font-family: UniSans;
+  src: url('/police/UniSans.otf');
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: #00000000;
+}
+
+html{
+  display: block;
+}
+
+body {
+  display: block;
+  width: 100vw;
+  height: fit-content;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: Bodoni;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: HelveticaLight;
+  font-weight: lighter;
+  letter-spacing: 7px;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+p {
+  color: #606060;
+  font-family: HelveticaCondensedLight;
+  font-size: 18px;
+  text-align: justify;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  color: inherit;
+  border: 0;
+  padding: 0;
+  background-color: #0000;
+}
+
+.lazyText {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 0.8s, opacity 0.8s linear;
+}
+
+.button {
+  display: block;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #0000;
+  width: fit-content;
+  font-size: 16px;
+  padding: 7px 14px;
+  line-height: 100%;
+  border: 1px solid #000;
+  color: #000;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.2s, color 0.2s linear;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #000;
+}
+
+.buttonBlanc {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.buttonBlanc:hover {
+  color: assets.$color-gold;
+  background-color: #fff;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  gap: 5px;
+}
+
+#homeH1 {
+  text-shadow: 3px 2px 3px #0005;
+}
+
+#homeH2 {
+  text-shadow: 3px 2px 2px #0007;
+}
+
+#partenaires{
+  padding: assets.$standard-padding 0px;
+}
+
+#partenairesTitle{
+  text-align: center;
+}
+
+#homeBackground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translateZ(-0.8px) scale(1.8);
+  z-index: -1;
+}
